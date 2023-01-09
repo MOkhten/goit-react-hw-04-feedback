@@ -47,7 +47,6 @@ export class App  extends Component {
                 total={total}
                 percentage={positivePercentage}
               />}
-      
             </div >
         )
     }
