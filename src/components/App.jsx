@@ -23,6 +23,8 @@ export const App = () => {
         return setNeutral(prevNeutral => prevNeutral + 1);
       case 'bad':
         return setBad(prevBad => prevBad + 1);
+      default:
+        throw new Error('Unexpected value of option');
     }
   };
 
